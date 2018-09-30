@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #B6D5FD;
+}
+
+
+
+.wrapper {
+    width: 98%;
+    margin: 0 auto;
+    margin: 10px 15px;
+}
+
+.header {
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    margin: 10px 5px;
+}
+
+.navbar {
+    float: right;
+}
+.navbar ul{
+    float: right;
+    margin-top: 25px;
+
+}
+.navbar ul li{
+    float: left;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px 47px;
+    display: block;
+    color: #5A6D84;
+    FONT-FAMILY: sans-serif;
+}
+.banner {
+    background-image: url(../images/banner.jpeg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.banner_content{
+    width: 25%;
+    float: left;
+    border: 1px solid black;
+    min-height: 200px;
+    color: white;
+    margin-top: 70px;
+    margin-left: 25px;
+    padding: 15px 15px;
+    background-color: rgba(130, 90, 155, 0.4);
+}
+.banner_content h1{
+    font-size: 35;
+}
+.banner_content p{
+    padding: 30px 0px ;
+}
+.banner_content button{
+    padding: 10px 10px;
+    background: transparent;
+    font: 15px;
+}
+.service{
+    background-color: white;
+    overflow: hidden;
+}
+.single_service{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 35px 52px;
+
+}
+.single_service p {
+    
+    padding: 25px 5px;
+}
+.single_service button{
+    background-color: #425D7D;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+}
+footer{
+    background-color: white;
+}
+.footer_content{
+    text-align: center;
+    color: #425D7D;
+}
+.footer_content h4{
+    padding: 20px 5px;
+}
+.footer_content p{
+    padding: 20px 5px;
+}
+.footer_content img{
+    margin-bottom: 50px;
+}
